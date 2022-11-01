@@ -9,28 +9,22 @@
     <title>Apadok</title>
 </head>
 <body>
-    <div class="navbar">
-        <nav id="header-container">
-            <div class="content navbar">
-                <a href="" class="navbar-logo">
-                    <img src="{{ asset('images/apadokLogo.png') }}" alt="Apadok">
-                </a>
-                @yield('navbar-menu')
-            </div>
-        </nav>
-    </div>
-    <div class="main">
-        <main id="main-container">
-            @yield('main')
-        </main>
-    </div>
-    <div class="footer">
-        <footer id="footer-container">
-            <div class="footer-text">
-                <p>Copyright 2022 Apadok</p>
-            </div>
-        </footer>
-    </div>
+    <nav id="header-container">
+        <div class="content navbar">
+            <a href="" class="navbar-logo">
+                <img src="{{ asset('images/apadokLogo.png') }}" alt="Apadok">
+            </a>
+            @yield('navbar-menu')
+        </div>
+    </nav>
+    <main id="main-container">
+        @yield('main')
+    </main>
+    <footer id="footer-container">
+        <div class="footer-text">
+            <p>Copyright 2022 Apadok</p>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js" integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 </html>
