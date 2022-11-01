@@ -1,0 +1,37 @@
+.admin-index-jumbotron {
+    margin: 15px 0;
+    background: rgba(222, 239, 255, 0.5);
+    height: 660px;
+}
+
+.admin-index-jumbotron .left-side {
+    margin: 100px 10px 0 0;
+}
+
+.admin-index-jumbotron .left-side h1 {
+    color: #006A94;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.admin-index-jumbotron .left-side p {
+    color: #4C4C4C;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+.admin-index-jumbotron .left-side button {
+    width: 210px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 11px;
+}
+
+.admin-index-jumbotron .right-side {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
