@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('main')
-<div class="admin-index-jumbotron">
+<div class="landing-jumbotron">
     <div class="content">
         <div class="ui vertically divided grid">
             <div class="two column row">
@@ -20,7 +20,7 @@
         </div>
     </div>
 </div>
-<div class="admin-index-sect-1">
+<div class="landing-sect-1">
     <div class="content">
         <div class="sect-1-container">
             <h1>Layanan Apadok</h1>
