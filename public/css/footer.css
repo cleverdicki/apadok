@@ -1,0 +1,32 @@
+.foot-sect-1 {
+    background: #EFF7FF;
+    height: 455px;
+}
+
+.foot-sect-1 .left-column {
+    color: #006A94;
+    padding-top: 80px !important;
+    padding-left: 70px !important;
+}
+
+.foot-sect-1 .left-column h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 75px;
+}
+
+.foot-sect-1 .right-column img {
+    position: absolute;
+    right: 0;
+}
+
+.foot-sect-1 .right-column .bluevect-img {
+    top: 0;
+}
+
+.foot-sect-2 {
+    height: 380px;
+    color: #016A91;
+    padding: 75px;
+}
