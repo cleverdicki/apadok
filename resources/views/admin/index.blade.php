@@ -54,19 +54,44 @@
         <div class="sect-2-container">
             <h1>Mengapa Bergabung Bersama Apadok</h1>
             <div class="ui three column grid">
-                <div class="column left-column">
+                <div class="column box-column">
                     <h2>Sistem yang Terintegrasi</h2>
                     <p>Dengan Apadok, klinik anda memiliki sistem terpadu serta terintegrasi dan dapat diakses secara daring. Apadok dirancang untuk memenuhi kebutuhan klinik anda</p>
                 </div>
-                <div class="column mid-column">
+                <div class="column box-column mid-column">
                     <h2>Standarisasi Layanan</h2>
                     <p>Layanan klinik anda akan distandarisasi sesuai dengan standar Apadok guna meningkatkan kualitas klinik anda</p>
                 </div>
-                <div class="column right-column">
+                <div class="column box-column">
                     <h2>Dimanapun dan Kapanpun</h2>
                     <p>Akses website maupun mobile app Apadok kapanpun dan dimanapun setiap harinya</p>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+<div class="landing-sect-3">
+    <div class="content">
+        <div class="sect-3-container">
+            <h1>Artikel Kesehatan</h1>
+            <div class="ui three column centered grid box-grid">
+                <div class="column box-column">
+                    <img src="{{ asset('images/headImg.png') }}" alt="head" srcset="">
+                    <p>Trik psikologis untuk membuat anda semakin bugar</p>
+                    <a href="">Baca selengkapnya</a>
+                </div>
+                <div class="column box-column mid-column">
+                    <img src="{{ asset('images/situpImg.png') }}" alt="situp" srcset="">
+                    <p>Ini 5 manfaat sit-up untuk kesehatan jangka panjang</p>
+                    <a href="">Baca selengkapnya</a>
+                </div>
+                <div class="column box-column">
+                    <img src="{{ asset('images/bananaImg.png') }}" alt="banana" srcset="">
+                    <p>Kenali nutrisi Pisang sebelum Anda memakannya secara rutin</p>
+                    <a href="">Baca selengkapnya</a>
+                </div>
+            </div>
+            <button class="ui orange button">Lihat Semua</button>
         </div>
     </div>
 </div>
