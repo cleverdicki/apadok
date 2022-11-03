@@ -95,7 +95,7 @@
 .landing-sect-3 .box-column {
     height: 315px;
     width: 400px !important;
-    margin: 0 25px !important;
+    margin: 0 50px !important;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     padding: 0 !important;
@@ -123,29 +123,35 @@
     padding-left: 18px;
 }
 
-.landing-sect-4 {
+.foot-sect-1 {
     background: #EFF7FF;
     height: 455px;
 }
 
-.landing-sect-4 .left-column {
+.foot-sect-1 .left-column {
     color: #006A94;
     padding-top: 80px !important;
     padding-left: 70px !important;
 }
 
-.landing-sect-4 .left-column h1 {
+.foot-sect-1 .left-column h1 {
     font-size: 50px;
     font-weight: 700;
     line-height: 56px;
     margin-bottom: 75px;
 }
 
-.landing-sect-4 .right-column img {
+.foot-sect-1 .right-column img {
     position: absolute;
     right: 0;
 }
 
-.landing-sect-4 .right-column .bluevect-img {
+.foot-sect-1 .right-column .bluevect-img {
     top: 0;
+}
+
+.foot-sect-2 {
+    height: 380px;
+    color: #016A91;
+    padding: 75px;
 }
