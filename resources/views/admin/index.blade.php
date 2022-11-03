@@ -95,4 +95,18 @@
         </div>
     </div>
 </div>
+<div class="landing-sect-4">
+    <div class="sect-4-container">
+        <div class="ui two column grid">
+            <div class="column box-column left-column">
+                <h1>Dapatkan aplikasi Apadok di smartphone anda</h1>
+                <img src="{{ asset('images/googleplay.png') }}" alt="googleplay" srcset="">
+            </div>
+            <div class="column box-column right-column">
+                <img class="bluevect-img" src="{{ asset('images/blueVect.png') }}" alt="blueVect" srcset="">
+                <img class="phone-img" src="{{ asset('images/phone.png') }}" alt="phone" srcset="">
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

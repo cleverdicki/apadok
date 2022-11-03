@@ -122,3 +122,30 @@
     line-height: 18.75px;
     padding-left: 18px;
 }
+
+.landing-sect-4 {
+    background: #EFF7FF;
+    height: 455px;
+}
+
+.landing-sect-4 .left-column {
+    color: #006A94;
+    padding-top: 80px !important;
+    padding-left: 70px !important;
+}
+
+.landing-sect-4 .left-column h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 75px;
+}
+
+.landing-sect-4 .right-column img {
+    position: absolute;
+    right: 0;
+}
+
+.landing-sect-4 .right-column .bluevect-img {
+    top: 0;
+}
