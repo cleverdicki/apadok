@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import "landing.css";
 
 html {
     height: 100%;
@@ -11,7 +10,6 @@ body {
     font-family: 'Roboto', sans-serif;
     position: relative;
     margin: 0;
-    padding-bottom: 150px;
     min-height: 100%;
     box-sizing: inherit !important;
 }
