@@ -19,7 +19,7 @@
             @yield('navbar-menu')
         </div>
     </nav>
-    <main id="content main-container">
+    <main id="main-container">
         @yield('main')
     </main>
     <footer id="footer-container">
