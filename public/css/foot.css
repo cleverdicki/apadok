@@ -53,3 +53,26 @@
 .foot-sect .right-column .bluevect-img {
     top: 0;
 }
+
+.foot-sect-1-container {
+    margin: 100px 0;
+}
+
+.foot-sect-1-container h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #006C92;
+    margin-bottom: 20px;
+}
+
+.foot-sect-1-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #6D6F71;
+}
+
+.foot-sect-1-container img {
+    margin-right: 30px;
+}

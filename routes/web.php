@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\ArticleController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,8 @@ use App\Http\Controllers\UserController;
 
 Route::get('/', [AdminController::class, 'index'])->name('index');
 Route::get('/login', [UserController::class, 'login'])->name('login');
+Route::get('/article', [ArticleController::class, 'index'])->name('index');
+
 
 Route::prefix('admin')->name('admin.')->group(function() {
     
