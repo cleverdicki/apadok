@@ -13,7 +13,7 @@
 <body>
     <nav id="header-container">
         <div class="content navbar">
-            <a href="" class="navbar-logo">
+            <a href="#" class="navbar-logo">
                 <img src="{{ asset('images/apadokLogo.png') }}" alt="Apadok">
             </a>
             @yield('navbar-menu')

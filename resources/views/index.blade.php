@@ -84,20 +84,20 @@
                     <div class="column box-column-left">
                         <img src="{{ asset('images/landing/sect4-img1.png') }}" alt="head" srcset="">
                         <p>Trik psikologis untuk membuat anda semakin bugar</p>
-                        <a href="" class="a-article">Selengkapnya</a>
+                        <a href="#" class="a-article">Selengkapnya</a>
                     </div>
                     <div class="column box-column-mid">
                         <img src="{{ asset('images/landing/sect4-img2.png') }}" alt="situp" srcset="">
                         <p>Ini 5 manfaat sit-up untuk kesehatan jangka panjang</p>
-                        <a href="" class="a-article">Selengkapnya</a>
+                        <a href="#" class="a-article">Selengkapnya</a>
                     </div>
                     <div class="column box-column-right">
                         <img src="{{ asset('images/landing/sect4-img3.png') }}" alt="banana" srcset="">
                         <p>Kenali nutrisi Pisang sebelum Anda memakannya secara rutin</p>
-                        <a href="" class="a-article">Selengkapnya</a>
+                        <a href="#" class="a-article">Selengkapnya</a>
                     </div>
                 </div>
-                <a href="" class="a-other">Lihat Artikel Lainnya</a>
+                <a href="#" class="a-other">Lihat Artikel Lainnya</a>
             </div>
         </div>
     </div>

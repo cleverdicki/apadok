@@ -6,7 +6,7 @@
             <div class="ui two column grid">
                 <div class="column box-column left-column">
                     <h1>Dapatkan aplikasi <span>Apadok</span> di smartphone anda</h1>
-                    <button class="ui button blue"><img src="{{ asset('images/landing/playstore.png') }}" alt=""><a href="">Download Sekarang!</a></button>
+                    <button class="ui button blue"><img src="{{ asset('images/landing/playstore.png') }}" alt=""><a href="#">Download Sekarang!</a></button>
                 </div>
                 <div class="column box-column right-column">
                     <img class="phone-img" src="{{ asset('images/landing/app.png') }}" alt="phone" srcset="">
