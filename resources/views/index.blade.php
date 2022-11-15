@@ -4,6 +4,10 @@
 <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
 @endsection
 
+@section('navbar-menu')
+@include('layouts.navbar')
+@endsection
+
 @section('main')
 <div class="landing-container">
     <div class="landing-sect-1">

@@ -4,6 +4,10 @@
 <link rel="stylesheet" href="{{ asset('css/article.css') }}">
 @endsection
 
+@section('navbar-menu')
+@include('layouts.navbar')
+@endsection
+
 @section('main')
 <div class="article-container">
     <div class="content">

@@ -12,7 +12,7 @@
 </head>
 <body>
     <nav id="header-container">
-        <div class="content navbar">
+        <div class="content navbar-container">
             <a href="#" class="navbar-logo">
                 <img src="{{ asset('images/apadokLogo.png') }}" alt="Apadok">
             </a>
