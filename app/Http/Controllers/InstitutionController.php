@@ -16,6 +16,11 @@ class InstitutionController extends Controller
         return view('institution.dashboard');
     }
 
+    public function peserta()
+    {
+        return view('institution.peserta');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

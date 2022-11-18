@@ -23,4 +23,5 @@ Route::get('/article', [ArticleController::class, 'index'])->name('index');
 
 Route::prefix('institution')->name('institution.')->group(function () {
     Route::get('/', [InstitutionController::class, 'index'])->name('index');
+    Route::get('/peserta', [InstitutionController::class, 'peserta'])->name('peserta');
 });

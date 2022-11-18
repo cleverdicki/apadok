@@ -1,0 +1,116 @@
+.institution-peserta h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #006C92;
+}
+
+.institution-peserta .data-container {
+    margin: 40px 0;
+}
+
+.institution-peserta .data-container .box-column {
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 700px !important;
+    height: 132px !important;
+}
+
+.institution-peserta .data-container .left-box {
+    margin-right: 40px;
+}
+
+.institution-peserta .data-container .box-column h5, .institution-peserta .data-container .box-column span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #858788;
+}
+
+.institution-peserta .data-container .box-column p {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60.94px;
+    color: #6D6F71;
+}
+
+.option-container .box-search {
+    margin-right: 40px;
+    width: 550px !important;
+}
+
+.option-container .box-search input {
+    width: 550px;
+    height: 59px;
+}
+
+.option-container .box-add, .option-container .box-download {
+    margin-right: 40px;
+    width: 260px !important;
+}
+
+.option-container .box-add button, .option-container .box-download button {
+    width: 260px;
+    height: 59px;
+    border-radius: 10px !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.option-container .box-import-export {
+    width: 236px !important;
+}
+
+.option-container .box-import-export button {
+    width: 236px;
+    height: 59px;
+    border-radius: 10px !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.option-container span {
+    margin-right: 15px;
+}
+
+.table-container {
+    margin: 40px 0;
+}
+
+.table-container .edit-link {
+    color: #006C92;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.table-container .delete-link {
+    color: #D82424;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.pagination-menu {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 80px 0;
+}
+
+.pagination-menu .pagination.menu {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.pagination-menu .pagination.menu .active {
+    background-color: #FF762C;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.pagination-menu .pagination.menu a {
+    color: #FF762C;
+}
