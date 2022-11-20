@@ -21,6 +21,11 @@ class InstitutionController extends Controller
         return view('institution.peserta');
     }
 
+    public function detail()
+    {
+        return view('institution.detail');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
