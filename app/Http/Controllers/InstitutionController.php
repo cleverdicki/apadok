@@ -36,6 +36,11 @@ class InstitutionController extends Controller
         return view('institution.disease');
     }
 
+    public function stroke()
+    {
+        return view('institution.stroke');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
