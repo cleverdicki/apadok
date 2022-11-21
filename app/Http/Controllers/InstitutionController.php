@@ -41,6 +41,11 @@ class InstitutionController extends Controller
         return view('institution.stroke');
     }
 
+    public function kardiovaskular()
+    {
+        return view('institution.kardiovaskular');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
