@@ -29,4 +29,5 @@ Route::prefix('institution')->name('institution.')->group(function () {
     Route::get('/disease', [InstitutionController::class, 'disease'])->name('disease');
     Route::get('/stroke', [InstitutionController::class, 'stroke'])->name('stroke');
     Route::get('/kardiovaskular', [InstitutionController::class, 'kardiovaskular'])->name('kardiovaskular');
+    Route::get('/diabetes', [InstitutionController::class, 'diabetes'])->name('diabetes');
 });

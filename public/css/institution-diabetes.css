@@ -1,0 +1,135 @@
+.institution-diabetes h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #006C92;
+}
+
+.institution-diabetes .graph-container {
+    width: 1440px;
+    height: 569px;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 40px 0;
+}
+
+.institution-diabetes .graph-container h5 {
+    margin: 18px;
+}
+
+.institution-diabetes .graph-container .img-container {
+    text-align: center;
+}
+
+.institution-diabetes .box-column {
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.institution-diabetes .data-container {
+    padding-left: 20px;
+    margin: 40px 0;
+}
+
+.institution-diabetes .data-container .other-box {
+    margin-left: 40px;
+}
+
+.institution-diabetes .data-container .ui.three.column.relaxed.grid {
+    padding-left: 20px;
+}
+
+.institution-diabetes .data-container h5, .institution-diabetes .data-container span, .graph-container h5 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #858788;
+}
+
+.institution-diabetes .data-container p {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 60.94px;
+    color: #6D6F71;
+}
+
+.institution-diabetes .data-container .box-column {
+    width: 256px !important;
+}
+
+.institution-diabetes .data-container .mid-box {
+    margin: 0 30px;
+}
+
+.risiko-container {
+    width: 1440px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    margin: 40px 0;
+    padding: 40px;
+}
+
+.risiko-container h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: #6D6F71;
+}
+
+.three.wide.column button {
+    width: 230px;
+    height: 59px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+.ui.search input {
+    width: 1360px;
+    height: 59px;
+    margin: 40px 0;
+}
+
+.table-container thead tr th {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #3C3E41;
+}
+
+.table-container tbody tr td {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #6D6F71;
+}
+
+.table-container tbody tr a {
+    font-weight: 700;
+    color: #3C3E41;
+}
+
+.pagination-menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pagination-menu .pagination.menu {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.pagination-menu .pagination.menu .active {
+    background-color: #FF762C;
+    color: #FFFFFF;
+    border-radius: 50px;
+}
+
+.pagination-menu .pagination.menu a {
+    color: #FF762C;
+}
