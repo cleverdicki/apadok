@@ -31,6 +31,11 @@ class InstitutionController extends Controller
         return view('institution.screening');
     }
 
+    public function disease()
+    {
+        return view('institution.disease');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
