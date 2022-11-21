@@ -9,6 +9,10 @@
     margin: 40px 0;
 }
 
+.institution-peserta .data-container .ui.two.column.relaxed.grid {
+    padding-left: 20px;
+}
+
 .institution-peserta .data-container .box-column {
     border: 1px solid #E4E4E4;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
@@ -18,7 +22,7 @@
 }
 
 .institution-peserta .data-container .left-box {
-    margin-right: 40px;
+    margin-right: 30px;
 }
 
 .institution-peserta .data-container .box-column h5, .institution-peserta .data-container .box-column span {

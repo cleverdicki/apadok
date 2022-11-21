@@ -25,4 +25,5 @@ Route::prefix('institution')->name('institution.')->group(function () {
     Route::get('/', [InstitutionController::class, 'index'])->name('index');
     Route::get('/peserta', [InstitutionController::class, 'peserta'])->name('peserta');
     Route::get('/peserta/1', [InstitutionController::class, 'detail'])->name('detail');
+    Route::get('/screening', [InstitutionController::class, 'screening'])->name('screening');
 });
