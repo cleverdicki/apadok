@@ -51,6 +51,11 @@ class InstitutionController extends Controller
         return view('institution.diabetes');
     }
 
+    public function chat()
+    {
+        return view('institution.chat');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

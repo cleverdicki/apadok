@@ -1,0 +1,80 @@
+.institution-chat h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #006C92;
+    margin-bottom: 40px;
+}
+
+.institution-chat .box-column {
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.institution-chat .left-box {
+    margin-right: 40px;
+}
+
+.institution-chat .left-box .ui.search {
+    margin-bottom: 24px;
+}
+
+.institution-chat .left-box .ui.search input {
+    width: 340px;
+    height: 59px;
+}
+
+.institution-chat .initial-column .circle-bg {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    width: 59px;
+    height: 59px;
+    background: #FFEED4;
+    border-radius: 100px;
+}
+
+.institution-chat .initial-column h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    margin: 10px;
+    color: #FF762C;
+}
+
+.institution-chat .detail-column {
+    padding: 20px !important;
+}
+
+.institution-chat .detail-column h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #3C3E41;
+}
+
+.institution-chat .detail-column p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #858788;
+}
+
+.institution-chat .right-box {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.institution-chat .right-box .chat-right-box-container {
+    text-align: center;
+}
+
+.institution-chat .right-box .chat-right-box-container p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #A2A4A5;
+    margin-top: 33px;
+}
