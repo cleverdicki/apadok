@@ -84,18 +84,22 @@
     margin: 40px 0;
 }
 
-.table-container .edit-link {
-    color: #006C92;
+.table-container .detail-link, .table-container .edit-link, .table-container .delete-link {
     font-weight: 700;
     font-size: 16px;
     line-height: 18.75px;
 }
 
+.table-container .detail-link {
+    color: #3C3E41;
+}
+
+.table-container .edit-link {
+    color: #006C92;
+}
+
 .table-container .delete-link {
     color: #D82424;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 18.75px;
 }
 
 .pagination-menu {
@@ -117,4 +121,98 @@
 
 .pagination-menu .pagination.menu a {
     color: #FF762C;
+}
+
+#add-modal, #edit-modal {
+    width: 1375px;
+    height: 834px;
+    padding: 48px;
+}
+
+#download-modal, #delete-modal {
+    width: 578px;
+    height: 436px;
+}
+
+#download-modal .content, #delete-modal .content {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 436px;
+}
+
+#download-modal .content .content-container, #delete-modal .content .content-container {
+    text-align: center;
+}
+
+#delete-modal .content .content-container .button-container {
+    display: inline;
+}
+
+#delete-modal .content .content-container .button-container button {
+    width: 123px;
+    height: 59px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+}
+
+#download-modal .content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #3C3E41;
+    margin: 32px 0;
+}
+
+.ui.modal .content h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #006C92;
+}
+
+.ui.modal .content label {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 23.44px !important;
+    color: #006C92 !important;
+    margin-bottom: 6px;
+}
+
+.ui.modal .content .field {
+    margin-bottom: 32px;
+}
+
+.ui.modal .content .field input {
+    width: 615.5px;
+    height: 59px;
+}
+
+.ui.modal .content .field button {
+    width: 295px;
+    height: 59px;
+}
+
+.ui.modal .action {
+    position: absolute;
+    right: 0;
+    padding-bottom: 48px;
+    padding-right: 48px;
+}
+
+.ui.modal .action .ui.deny.basic.button {
+    border: none !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #B91A28 !important;
+}
+
+.ui.modal .action .ui.positive.basic.button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    background: #006C92 !important;
+    color: #FFFFFF !important;
 }
