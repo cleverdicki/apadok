@@ -11,7 +11,7 @@
             <h1>Informasi Peserta</h1>
         </div>
         <div class="two wide column">
-            <button class="ui primary button first-btn">
+            <button class="ui primary button first-btn" onclick="editModal()">
                 <span><img src="{{ asset('images/institution/edit.png') }}" alt="edit"></span>Edit
             </button>
         </div>
@@ -55,9 +55,18 @@
                 <h3>Pemeriksaan Risiko</h3>
             </div>
             <div class="three wide column">
-                <button class="ui orange button">
-                    Import/Export
-                </button>
+                <div class="ui menu">
+                    <div class="item">
+                        <button class="ui orange button sub-btn-ie">
+                            Import/Export
+                            <i class="fas fa-angle-down dropdown-btn"></i>
+                        </button>
+                        <div class="sub-menu-btn">
+                            <a href="#" class="item sub-item">Import</a>
+                            <a href="#" class="item sub-item">Export</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="ui search">
@@ -135,9 +144,18 @@
                 <h3>Pemeriksaan Kebugaran</h3>
             </div>
             <div class="three wide column">
-                <button class="ui orange button">
-                    Import/Export
-                </button>
+                <div class="ui menu">
+                    <div class="item">
+                        <button class="ui orange button sub-btn-ie">
+                            Import/Export
+                            <i class="fas fa-angle-down dropdown-btn"></i>
+                        </button>
+                        <div class="sub-menu-btn">
+                            <a href="#" class="item sub-item">Import</a>
+                            <a href="#" class="item sub-item">Export</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="ui search">
@@ -196,4 +214,75 @@
         </div>
     </div>
 </div>
+<div class="ui modal" id="edit-modal">
+    <i class="close icon"></i>
+    <div class="content">
+        <h2>Tambah Peserta</h2>
+        <div class="ui form">
+            <div class="ui two column relaxed grid">
+                <div class="column">
+                    <div class="field">
+                        <label for="nomor-peserta">Nomor Peserta</label>
+                        <input type="text" name="nomor-peserta" value="TESTER01">
+                    </div>
+                    <div class="field">
+                        <label for="nama-peserta">Nama Peserta</label>
+                        <input type="text" name="nama-peserta" value="Bambang">
+                    </div>
+                    <div class="field">
+                        <label for="nomor-telepon">Nomor Telepon</label>
+                        <input type="text" name="nomor-telepon" value="081251351361">
+                    </div>
+                    <div class="field">
+                        <label for="tanggal-lahir">Tanggal Lahir</label>
+                        <input type="date" name="tanggal-lahir">
+                    </div>
+                    <label for="jenis-kelamin">Jenis Kelamin</label>
+                    <div class="ui two column relaxed grid">
+                        <div class="column">
+                            <div class="field">
+                                <button class="ui basic button">Laki-laki</button>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="field">
+                                <button class="ui basic button">Perempuan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="field">
+                        <label for="tinggi-badan">Tinggi Badan (cm)</label>
+                        <input type="text" name="tinggi-badan" value="176">
+                    </div>
+                    <div class="field">
+                        <label for="berat-badan">Berat Badan (kg)</label>
+                        <input type="text" name="berat-badan" value="81">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="action">
+        <div class="ui deny basic button">
+            Batalkan
+        </div>
+        <div class="ui positive basic button">
+            Simpan
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('js')
+<script>
+    function editModal() {
+        $('#edit-modal').modal('show');
+    }
+    $('.sub-btn-ie').click(function() {
+        $(this).next('.sub-menu-btn').slideToggle();
+        $(this).find('.dropdown-btn').toggleClass('rotate-btn');
+    })
+</script>
 @endsection

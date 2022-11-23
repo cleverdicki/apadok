@@ -63,19 +63,6 @@
     line-height: 23.44px;
 }
 
-.option-container .box-import-export {
-    width: 236px !important;
-}
-
-.option-container .box-import-export button {
-    width: 236px;
-    height: 59px;
-    border-radius: 10px !important;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 23.44px;
-}
-
 .option-container span {
     margin-right: 15px;
 }
@@ -129,19 +116,19 @@
     padding: 48px;
 }
 
-#download-modal, #delete-modal {
+#download-modal, #delete-modal, #export-modal {
     width: 578px;
     height: 436px;
 }
 
-#download-modal .content, #delete-modal .content {
+#download-modal .content, #delete-modal .content, #export-modal .content {
     display: flex !important;
     align-items: center;
     justify-content: center;
     height: 436px;
 }
 
-#download-modal .content .content-container, #delete-modal .content .content-container {
+#download-modal .content .content-container, #delete-modal .content .content-container, #export-modal .content .content-container {
     text-align: center;
 }
 
@@ -157,7 +144,7 @@
     line-height: 23.44px;
 }
 
-#download-modal .content h3 {
+#download-modal .content h3, #export-modal .content h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 23.44px;
@@ -215,4 +202,54 @@
     line-height: 23.44px;
     background: #006C92 !important;
     color: #FFFFFF !important;
+}
+
+.box-import-export {
+    padding: 22px 10px !important;
+}
+
+.box-import-export .ui.menu button {
+    width: 236px;
+    height: 59px;
+    border-radius: 10px !important;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 23.44px;
+}
+
+.box-import-export .ui.menu button i {
+    margin-left: 10px;
+}
+
+.box-import-export .ui.menu .item {
+    padding: 0;
+    display: block;
+}
+
+.box-import-export .ui.menu .item .sub-btn-ie i {
+    transition: 0.3s ease;
+}
+
+.box-import-export .ui.menu .item .sub-menu-btn {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #E4E4E4;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    position: absolute;
+    width: 236px;
+    z-index: 1;
+}
+
+.box-import-export .ui.menu .item .sub-menu-btn a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #3C3E41;
+    margin: 34px;
+}
+
+.rotate-btn {
+    transform: rotate(180deg);
 }

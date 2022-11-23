@@ -39,9 +39,18 @@
                 <h3>Informasi Risiko</h3>
             </div>
             <div class="three wide column">
-                <button class="ui orange button">
-                    Import/Export
-                </button>
+                <div class="ui menu">
+                    <div class="item">
+                        <button class="ui orange button sub-btn-ie">
+                            Import/Export
+                            <i class="fas fa-angle-down dropdown-btn"></i>
+                        </button>
+                        <div class="sub-menu-btn">
+                            <a href="#" class="item sub-item">Import</a>
+                            <a href="#" class="item sub-item" onclick="exportModal()">Export</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="ui search">
@@ -121,4 +130,26 @@
         </div>
     </div>
 </div>
+<div class="ui modal" id="export-modal">
+    <i class="close icon"></i>
+    <div class="content">
+        <div class="content-container">
+            <img src="{{ asset('images/institution/success.png') }}" alt="success">
+            <h3>Data berhasil di-export</h3>
+            <button class="ui blue button">Tutup</button>
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('js')
+<script>
+    function exportModal() {
+        $('#export-modal').modal('show');
+    }
+    $('.sub-btn-ie').click(function() {
+        $(this).next('.sub-menu-btn').slideToggle();
+        $(this).find('.dropdown-btn').toggleClass('rotate-btn');
+    })
+</script>
 @endsection

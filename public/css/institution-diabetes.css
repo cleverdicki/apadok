@@ -133,3 +133,73 @@
 .pagination-menu .pagination.menu a {
     color: #FF762C;
 }
+
+.three.wide.column .ui.menu button {
+    width: 230px;
+    height: 59px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 20px !important;
+    line-height: 23.44px;
+}
+
+.three.wide.column .ui.menu button i {
+    margin-left: 10px;
+}
+
+.three.wide.column .ui.menu .item {
+    padding: 0;
+    display: block;
+}
+
+.three.wide.column .ui.menu .item .sub-btn-ie i {
+    transition: 0.3s ease;
+}
+
+.three.wide.column .ui.menu .item .sub-menu-btn {
+    display: none;
+    margin-top: 10px;
+    border: 1px solid #E4E4E4;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    position: absolute;
+    width: 236px;
+    z-index: 1;
+}
+
+.three.wide.column .ui.menu .item .sub-menu-btn a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #3C3E41;
+    margin: 34px;
+}
+
+.rotate-btn {
+    transform: rotate(180deg);
+}
+
+#export-modal {
+    width: 578px;
+    height: 436px;
+}
+
+#export-modal .content {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 436px;
+}
+
+#export-modal .content .content-container {
+    text-align: center;
+}
+
+#export-modal .content h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #3C3E41;
+    margin: 32px 0;
+}
