@@ -82,3 +82,18 @@ footer {
 .ui.left.fixed.secondary.vertical.menu button img {
     margin: 0 14px -5px 0;
 }
+
+.menu .item a .dropdown {
+    position: absolute;
+    right: 0;
+    transition: 0.3s ease;
+}
+
+.menu .item .sub-menu {
+    display: none;
+    padding-left: 20px;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
