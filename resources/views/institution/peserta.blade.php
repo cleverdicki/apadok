@@ -61,37 +61,37 @@
                     <td>TESTER01</td>
                     <td>Bambang</td>
                     <td>088811112222</td>
-                    <td><a href="#" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
                     <td>TESTER01</td>
                     <td>Bambang</td>
                     <td>088811112222</td>
-                    <td><a href="#" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
                     <td>TESTER01</td>
                     <td>Bambang</td>
                     <td>088811112222</td>
-                    <td><a href="#" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
                     <td>TESTER01</td>
                     <td>Bambang</td>
                     <td>088811112222</td>
-                    <td><a href="#" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
                     <td>TESTER01</td>
                     <td>Bambang</td>
                     <td>088811112222</td>
-                    <td><a href="#" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
                     <td>TESTER01</td>
                     <td>Bambang</td>
                     <td>088811112222</td>
-                    <td><a href="#" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
             </tbody>
         </table>

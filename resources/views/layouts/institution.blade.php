@@ -20,23 +20,23 @@
             <p>Klinik Sutorejo</p>
         </div>
         <div class="item">
-            <a class="item">Dashboard</a>
+            <a href="{{ route('institution.index') }}" class="item">Dashboard</a>
         </div>
         <div class="item">
             <a class="item sub-btn">Monitoring<i class="fas fa-angle-right dropdown"></i></a>
             <div class="sub-menu">
-                <a href="#" class="item sub-item">Jumlah Screening</a>
-                <a href="#" class="item sub-item">Risiko Semua Penyakit</a>
-                <a href="#" class="item sub-item">Risiko Diabetes</a>
-                <a href="#" class="item sub-item">Risiko Kardiovaskular</a>
-                <a href="#" class="item sub-item">Risiko Stroke</a>
+                <a href="{{ route('institution.screening') }}" class="item sub-item">Jumlah Screening</a>
+                <a href="{{ route('institution.disease') }}" class="item sub-item">Risiko Semua Penyakit</a>
+                <a href="{{ route('institution.diabetes') }}" class="item sub-item">Risiko Diabetes</a>
+                <a href="{{ route('institution.kardiovaskular') }}" class="item sub-item">Risiko Kardiovaskular</a>
+                <a href="{{ route('institution.stroke') }}" class="item sub-item">Risiko Stroke</a>
             </div>
         </div>
         <div class="item">
-            <a class="item">Peserta</a>
+            <a href="{{ route('institution.peserta') }}" class="item">Peserta</a>
         </div>
         <div class="item">
-            <a class="item">Chat</a>
+            <a href="{{ route('institution.chat') }}" class="item">Chat</a>
         </div>
         <button class="ui basic button"><img src="{{ asset('images/log-out.png') }}" alt="logout">Log Out</button>
     </div>
