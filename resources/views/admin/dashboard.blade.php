@@ -90,8 +90,8 @@
         <h2>Tambah Jenis Peserta</h2>
         <div class="ui form">
             <div class="field">
-                <label for="nomor-peserta">Jenis Institusi</label>
-                <input type="text" name="nomor-peserta" placeholder="Misal: Perusahaan">
+                <label for="jenis-institusi">Jenis Institusi</label>
+                <input type="text" name="jenis-institusi" placeholder="Misal: Perusahaan">
             </div>
         </div>
     </div>
@@ -110,8 +110,8 @@
         <h2>Tambah Jenis Peserta</h2>
         <div class="ui form">
             <div class="field">
-                <label for="nomor-peserta">Jenis Institusi</label>
-                <input type="text" name="nomor-peserta" value="Perusahaan">
+                <label for="jenis-institusi">Jenis Institusi</label>
+                <input type="text" name="jenis-institusi" value="Perusahaan">
             </div>
         </div>
     </div>

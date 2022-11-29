@@ -36,4 +36,5 @@ Route::prefix('institution')->name('institution.')->group(function () {
 
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('index');
+    Route::get('/institution-list', [AdminController::class, 'institutionList'])->name('institutionList');
 });

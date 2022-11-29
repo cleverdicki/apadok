@@ -21,9 +21,9 @@ class AdminController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function institutionList()
     {
-        //
+        return view('admin.institution-list');
     }
 
     /**

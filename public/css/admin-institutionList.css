@@ -1,21 +1,21 @@
 @import "pagination.css";
 
-.admin-dashboard h1 {
+.admin-institution-list h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 46.88px;
     color: #006C92;
 }
 
-.admin-dashboard .data-container {
+.admin-institution-list .data-container {
     margin: 40px 0;
 }
 
-.admin-dashboard .data-container .ui.two.column.relaxed.grid {
+.admin-institution-list .data-container .ui.two.column.relaxed.grid {
     padding-left: 20px;
 }
 
-.admin-dashboard .data-container .box-column {
+.admin-institution-list .data-container .box-column {
     border: 1px solid #E4E4E4;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
@@ -24,18 +24,18 @@
     margin-left: 14px;
 }
 
-.admin-dashboard .data-container .left-box {
+.admin-institution-list .data-container .left-box {
     margin-right: 30px;
 }
 
-.admin-dashboard .data-container .box-column h5, .admin-dashboard .data-container .box-column span {
+.admin-institution-list .data-container .box-column h5, .admin-institution-list .data-container .box-column span {
     font-weight: 400;
     font-size: 20px;
     line-height: 23.44px;
     color: #858788;
 }
 
-.admin-dashboard .data-container .box-column p {
+.admin-institution-list .data-container .box-column p {
     font-weight: 700;
     font-size: 52px;
     line-height: 60.94px;
@@ -88,6 +88,15 @@
     color: #6D6F71;
 }
 
+.table-container .group-code {
+    font-weight: 700;
+    color: #FF762C !important;
+}
+
+.table-container .institution-type {
+    color: #0671D6 !important;
+}
+
 .table-container .detail-link, .table-container .edit-link, .table-container .delete-link {
     font-weight: 700;
     font-size: 16px;
@@ -107,8 +116,9 @@
 }
 
 #add-modal, #edit-modal {
+    margin-top: 50px;
     width: 1375px;
-    height: 354px;
+    height: 834px;
     padding: 48px;
 }
 
@@ -168,12 +178,15 @@
 }
 
 .ui.modal .content .field input {
-    width: 1250px;
+    width: 615.5px;
     height: 59px;
 }
 
 .ui.modal .content .field button {
-    width: 295px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    width: 186px;
     height: 59px;
 }
 
