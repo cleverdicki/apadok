@@ -14,14 +14,13 @@
         <div class="content">
             <div class="ui vertically divided grid">
                 <div class="two column row">
-                    <div class="column">
+                    <div class="column left-column">
                         <div class="left-side">
                             <h1>Layanan Kesehatan Tepat Bersama <span>Apadok</span></h1>
                             <p>Apadok membantu klinik-klinik mengembangkan serta mengelola bisnisnya secara tepat dan akurat.</p>
-                            <button class="ui blue button">Daftar Sekarang</button>
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column right-column">
                         <div class="right-side">
                             <img src="{{ asset('images/landing/sect1-img.png') }}" alt="doctorVect" srcset="">
                         </div>

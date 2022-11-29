@@ -23,6 +23,9 @@
                         <input type="password" name="password" placeholder="Masukkan password anda">
                     </div>
                     <button class="ui fluid large blue submit button" type="submit">Lanjutkan</button>
+                    <div class="login-admin">
+                        <a href="#">Masuk sebagai admin</a>
+                    </div>
                 </form>
             </div>
         </div>

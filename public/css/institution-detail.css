@@ -1,3 +1,5 @@
+@import "pagination.css";
+
 .institution-detail h1 {
     font-weight: 700;
     font-size: 40px;
@@ -116,27 +118,6 @@
     font-size: 16px;
     line-height: 18.75px;
     color: #6D6F71;
-}
-
-.pagination-menu {
-    display: flex;
-    justify-content: center;
-}
-
-.pagination-menu .pagination.menu {
-    border: none !important;
-    box-shadow: none !important;
-    margin: 10px 0;
-}
-
-.pagination-menu .pagination.menu .active {
-    background-color: #FF762C;
-    color: #FFFFFF;
-    border-radius: 50px;
-}
-
-.pagination-menu .pagination.menu a {
-    color: #FF762C;
 }
 
 #edit-modal {

@@ -7,8 +7,10 @@
     height: 660px;
 }
 
-.landing-sect-1 .left-side {
-    margin: 100px 10px 0 0;
+.landing-sect-1 .left-column {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
 .landing-sect-1 .left-side h1 {

@@ -51,3 +51,15 @@
 .form-container .right-column .field {
     margin-bottom: 27px;
 }
+
+.form-container .right-column .login-admin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container .right-column .login-admin a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.44px;
+    color: #6D6F71 !important;
+}

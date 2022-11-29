@@ -1,40 +1,41 @@
 @import "pagination.css";
 
-.institution-peserta h1 {
+.admin-dashboard h1 {
     font-weight: 700;
     font-size: 40px;
     line-height: 46.88px;
     color: #006C92;
 }
 
-.institution-peserta .data-container {
+.admin-dashboard .data-container {
     margin: 40px 0;
 }
 
-.institution-peserta .data-container .ui.two.column.relaxed.grid {
+.admin-dashboard .data-container .ui.two.column.relaxed.grid {
     padding-left: 20px;
 }
 
-.institution-peserta .data-container .box-column {
+.admin-dashboard .data-container .box-column {
     border: 1px solid #E4E4E4;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
-    width: 700px !important;
+    width: 453px !important;
     height: 132px !important;
+    margin-left: 14px;
 }
 
-.institution-peserta .data-container .left-box {
+.admin-dashboard .data-container .left-box {
     margin-right: 30px;
 }
 
-.institution-peserta .data-container .box-column h5, .institution-peserta .data-container .box-column span {
+.admin-dashboard .data-container .box-column h5, .admin-dashboard .data-container .box-column span {
     font-weight: 400;
     font-size: 20px;
     line-height: 23.44px;
     color: #858788;
 }
 
-.institution-peserta .data-container .box-column p {
+.admin-dashboard .data-container .box-column p {
     font-weight: 700;
     font-size: 52px;
     line-height: 60.94px;
@@ -43,11 +44,11 @@
 
 .option-container .box-search {
     margin-right: 40px;
-    width: 550px !important;
+    width: 865px !important;
 }
 
 .option-container .box-search input {
-    width: 550px;
+    width: 865px;
     height: 59px;
 }
 
@@ -93,7 +94,7 @@
 
 #add-modal, #edit-modal {
     width: 1375px;
-    height: 834px;
+    height: 354px;
     padding: 48px;
 }
 
@@ -153,7 +154,7 @@
 }
 
 .ui.modal .content .field input {
-    width: 615.5px;
+    width: 1250px;
     height: 59px;
 }
 

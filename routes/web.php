@@ -5,6 +5,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\InstitutionController;
+use App\Http\Controllers\LandingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ use App\Http\Controllers\InstitutionController;
 |
 */
 
-Route::get('/', [AdminController::class, 'index'])->name('index');
+Route::get('/', [LandingController::class, 'index'])->name('index');
 Route::get('/login', [UserController::class, 'login'])->name('login');
 Route::get('/article', [ArticleController::class, 'index'])->name('index');
 
@@ -31,4 +32,8 @@ Route::prefix('institution')->name('institution.')->group(function () {
     Route::get('/stroke', [InstitutionController::class, 'stroke'])->name('stroke');
     Route::get('/kardiovaskular', [InstitutionController::class, 'kardiovaskular'])->name('kardiovaskular');
     Route::get('/diabetes', [InstitutionController::class, 'diabetes'])->name('diabetes');
+});
+
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::get('/', [AdminController::class, 'index'])->name('index');
 });
