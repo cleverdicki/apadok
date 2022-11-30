@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="column box-add">
-                <button class="ui primary button" onclick="addModal()">
+                <button class="ui primary button" onclick="location.href='{{ route('admin.addArticle') }}'">
                     <span><img src="{{ asset('images/institution/plus.png') }}" alt="plus"></span>Tambah Artikel
                 </button>
             </div>
