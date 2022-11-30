@@ -20,7 +20,7 @@ use App\Http\Controllers\LandingController;
 
 Route::get('/', [LandingController::class, 'index'])->name('index');
 Route::get('/login', [UserController::class, 'login'])->name('login');
-Route::get('/article', [ArticleController::class, 'index'])->name('index');
+Route::get('/article', [ArticleController::class, 'article'])->name('article');
 
 Route::prefix('institution')->name('institution.')->group(function () {
     Route::get('/', [InstitutionController::class, 'index'])->name('index');
@@ -37,4 +37,6 @@ Route::prefix('institution')->name('institution.')->group(function () {
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('index');
     Route::get('/institution-list', [AdminController::class, 'institutionList'])->name('institutionList');
+    Route::get('/article', [AdminController::class, 'article'])->name('article');
+    Route::get('/add-article', [AdminController::class, 'addArticle'])->name('addArticle');
 });

@@ -16,14 +16,19 @@ class AdminController extends Controller
         return view('admin.dashboard');
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function institutionList()
     {
         return view('admin.institution-list');
+    }
+
+    public function article()
+    {
+        return view('admin.article');
+    }
+
+    public function addArticle()
+    {
+        return view('admin.add-article');
     }
 
     /**
