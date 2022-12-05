@@ -9,10 +9,10 @@
     <div class="form-container">
         <div class="ui two column grid">
             <div class="column left-column">
-                <img src="{{ asset('images/login/doctLogin.png') }}" alt="doctorVectLogin" srcset="">
+                <img src="{{ asset('images/login/adminLogin.png') }}" alt="doctorVectLogin" srcset="">
             </div>
             <div class="column right-column">
-                <h1>Masuk</h1>
+                <h1>Masuk Admin</h1>
                 <form class="ui large form">
                     <div class="field">
                         <p>Username</p>
@@ -22,9 +22,9 @@
                         <p>Password</p>
                         <input type="password" name="password" placeholder="Masukkan password anda">
                     </div>
-                    <button class="ui fluid large blue submit button" type="submit" onclick="location.href='{{ route('institution.index') }}'">Lanjutkan</button>
+                    <button class="ui fluid large blue submit button" type="submit" onclick="location.href='{{ route('admin.index') }}'">Lanjutkan</button>
                     <div class="login-admin">
-                        <a href="{{ route('loginAdmin') }}">Masuk sebagai admin</a>
+                        <a href="{{ route('login') }}">Masuk sebagai institusi</a>
                     </div>
                 </form>
             </div>

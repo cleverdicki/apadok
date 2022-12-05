@@ -28,7 +28,7 @@
         <div class="item">
             <a href="{{ route('admin.article') }}" class="item">Artikel Kesehatan</a>
         </div>
-        <button class="ui basic button"><img src="{{ asset('images/log-out.png') }}" alt="logout">Log Out</button>
+        <button class="ui basic button" onclick="location.href='{{ route('index') }}'"><img src="{{ asset('images/log-out.png') }}" alt="logout">Log Out</button>
     </div>
     <main id="main-container">
         @yield('main')

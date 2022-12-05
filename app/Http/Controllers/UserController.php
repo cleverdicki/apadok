@@ -16,6 +16,11 @@ class UserController extends Controller
         return view('login');
     }
 
+    public function loginAdmin()
+    {
+        return view('login-admin');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
