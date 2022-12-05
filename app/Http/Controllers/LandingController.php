@@ -16,6 +16,16 @@ class LandingController extends Controller
         return view('index');
     }
 
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function article()
+    {
+        return view('article.index');
+    }
+
     /**
      * Show the form for creating a new resource.
      *

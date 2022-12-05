@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\UserController;
-use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\InstitutionController;
 use App\Http\Controllers\LandingController;
 
@@ -21,7 +20,8 @@ use App\Http\Controllers\LandingController;
 Route::get('/', [LandingController::class, 'index'])->name('index');
 Route::get('/login', [UserController::class, 'login'])->name('login');
 Route::get('/login-admin', [UserController::class, 'loginAdmin'])->name('loginAdmin');
-Route::get('/article', [ArticleController::class, 'index'])->name('article');
+Route::get('/article', [LandingController::class, 'article'])->name('article');
+Route::get('/about-us', [LandingController::class, 'about'])->name('about');
 
 Route::prefix('institution')->name('institution.')->group(function () {
     Route::get('/', [InstitutionController::class, 'index'])->name('index');
