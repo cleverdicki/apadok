@@ -1,4 +1,4 @@
-<div class="foot-sect">
+<div class="foot-sect section-app">
     <img class="ellipse-left" src="{{ asset('images/landing/ellipse-left.png') }}" alt="" srcset="">
     <img class="ellipse-right" src="{{ asset('images/landing/ellipse-right.png') }}" alt="" srcset="">
     <div class="content">

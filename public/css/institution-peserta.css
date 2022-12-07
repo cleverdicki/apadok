@@ -234,3 +234,7 @@
 .rotate-btn {
     transform: rotate(180deg);
 }
+
+.peserta-btn {
+    color: #DB5620 !important;
+}

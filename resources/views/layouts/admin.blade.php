@@ -20,13 +20,13 @@
             <p>Admin Web</p>
         </div>
         <div class="item">
-            <a href="{{ route('admin.index') }}" class="item sub-btn">Jenis Institusi</a>
+            <a href="{{ route('admin.index') }}" class="item sub-btn jenis-institusi-btn">Jenis Institusi</a>
         </div>
         <div class="item">
-            <a href="{{ route('admin.institutionList') }}" class="item">Daftar Institusi</a>
+            <a href="{{ route('admin.institutionList') }}" class="item daftar-institusi-btn">Daftar Institusi</a>
         </div>
         <div class="item">
-            <a href="{{ route('admin.article') }}" class="item">Artikel Kesehatan</a>
+            <a href="{{ route('admin.article') }}" class="item artikel-kesehatan-btn">Artikel Kesehatan</a>
         </div>
         <button class="ui basic button" onclick="location.href='{{ route('index') }}'"><img src="{{ asset('images/log-out.png') }}" alt="logout">Log Out</button>
     </div>

@@ -69,3 +69,7 @@
 .institution-dashboard .graph-container .fourth-box {
     margin-top: 20px;
 }
+
+.dashboard-btn {
+    color: #DB5620 !important;
+}

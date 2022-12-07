@@ -13,7 +13,7 @@
 <body>
     <nav id="header-container">
         <div class="content navbar-container">
-            <a href="#" class="navbar-logo">
+            <a href="{{ route('index') }}" class="navbar-logo">
                 <img src="{{ asset('images/apadokLogo.png') }}" alt="Apadok">
             </a>
             @yield('navbar-menu')
@@ -28,5 +28,37 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.js" integrity="sha512-Xo0Jh8MsOn72LGV8kU5LsclG7SUzJsWGhXbWcYs2MAmChkQzwiW/yTQwdJ8w6UA9C6EVG18GHb/TrYpYCjyAQw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        function scroll(target, duration) {
+            var target = document.querySelector(target);
+            var targetPos = target.getBoundingClientRect().top + window.scrollY;
+            var startPos = window.pageYOffset;
+            var distance = targetPos - startPos;
+            var startTime = null;
+
+            function ease(t, b, c, d) {
+                t /= d / 2;
+                if (t < 1) return c / 2 * t * t + b;
+                t--;
+                return -c / 2 * (t * (t - 2) - 1) + b;
+            }
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                var timeElapsed = currentTime - startTime;
+                var exec = ease(timeElapsed, startPos, distance, duration);
+                window.scrollTo(0, exec);
+                if (timeElapsed < duration) requestAnimationFrame(animation);
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        var section1 = document.querySelector('.trigger-app');
+
+        section1.addEventListener('click', function() {
+            scroll('.section-app', 1000)
+        });
+    </script>
 </body>
 </html>

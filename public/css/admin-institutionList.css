@@ -262,3 +262,7 @@
 .rotate-btn {
     transform: rotate(180deg);
 }
+
+.daftar-institusi-btn {
+    color: #DB5620 !important;
+}
