@@ -13,7 +13,8 @@
             </div>
             <div class="column right-column">
                 <h1>Masuk Admin</h1>
-                <form class="ui large form">
+                <form class="ui large form" action="{{ route('login-attempt-admin') }}" method="post">
+                    @csrf
                     <div class="field">
                         <p>Username</p>
                         <input type="text" name="email" placeholder="Masukkan username anda">

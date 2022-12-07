@@ -100,6 +100,10 @@
     line-height: 18.75px;
 }
 
+.other-article {
+    margin-bottom: 50px;
+}
+
 .other-article h1 {
     text-align: center;
     color: #006C92;
@@ -135,4 +139,8 @@
 
 .other-article .box-article a {
     padding: 0 25px 25px 0;
+}
+
+.article-nav {
+    color: #FF762C !important;
 }

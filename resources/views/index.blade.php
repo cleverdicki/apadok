@@ -100,7 +100,7 @@
                         <a href="#" class="a-article">Selengkapnya</a>
                     </div>
                 </div>
-                <a href="#" class="a-other">Lihat Artikel Lainnya</a>
+                <a href="{{ route('article') }}" class="a-other">Lihat Artikel Lainnya</a>
             </div>
         </div>
     </div>

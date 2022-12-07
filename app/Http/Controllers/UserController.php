@@ -21,6 +21,22 @@ class UserController extends Controller
         return view('login-admin');
     }
 
+    public function loginAttempt(Request $request)
+    {
+        if ($request->email == 'institution@institution.com' && $request->password == 'institution123') {
+            return redirect('institution');
+        }
+        return view('login');
+    }
+
+    public function loginAttemptAdmin(Request $request)
+    {
+        if ($request->email == 'admin@admin.com' && $request->password == 'admin123') {
+            return redirect('admin');
+        }
+        return view('login-admin');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
