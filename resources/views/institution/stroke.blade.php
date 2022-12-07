@@ -70,43 +70,36 @@
                     <tr>
                         <td>TESTER01</td>
                         <td>Bambang</td>
-                        <td>081251515151</td>
+                        <td>081251351361</td>
                         <td>Risiko Menengah</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Risiko Menengah</td>
+                        <td>TESTER02</td>
+                        <td>Rahayu</td>
+                        <td>0854268781761</td>
+                        <td class="exc-data">Risiko Tinggi</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Risiko Menengah</td>
+                        <td>TESTER03</td>
+                        <td>Sutejo</td>
+                        <td>0824869284972</td>
+                        <td>Risiko Rendah</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Risiko Menengah</td>
+                        <td>TESTER04</td>
+                        <td>Rifki</td>
+                        <td>08384762489742</td>
+                        <td class="exc-data">Risiko Tinggi</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Risiko Menengah</td>
-                        <td><a href="#">Lihat detail</a></td>
-                    </tr>
-                    <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Risiko Menengah</td>
+                        <td>TESTER05</td>
+                        <td>Ahmad Tauhid</td>
+                        <td>0897378819764</td>
+                        <td>Risiko Rendah</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                 </tbody>

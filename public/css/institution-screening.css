@@ -62,10 +62,6 @@
     color: #3C3E41;
 }
 
-.monitoring-btn {
-    color: #DB5620 !important;
-}
-
-.jumlah-screening-btn {
+.monitoring-btn, .jumlah-screening-btn, .exc-data {
     color: #DB5620 !important;
 }

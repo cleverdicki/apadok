@@ -17,7 +17,7 @@
         <div class="ui four column relaxed grid">
             <div class="column box-column first-box">
                 <h5>Risiko Tinggi</h5>
-                <p>0 <span>orang</span></p>
+                <p>1 <span>orang</span></p>
             </div>
             <div class="column box-column other-box">
                 <h5>Risiko Menengah</h5>
@@ -29,7 +29,7 @@
             </div>
             <div class="column box-column other-box">
                 <h5>Tidak Berisiko</h5>
-                <p>1 <span>orang</span></p>
+                <p>3 <span>orang</span></p>
             </div>
         </div>
     </div>
@@ -74,42 +74,35 @@
                     <tr>
                         <td>TESTER01</td>
                         <td>Bambang</td>
-                        <td>081251515151</td>
+                        <td>081251351361</td>
                         <td>Tidak Berisiko</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
+                        <td>TESTER02</td>
+                        <td>Rahayu</td>
+                        <td>0854268781761</td>
                         <td>Tidak Berisiko</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Tidak Berisiko</td>
+                        <td>TESTER03</td>
+                        <td>Sutejo</td>
+                        <td>0824869284972</td>
+                        <td>Risiko Rendah</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Tidak Berisiko</td>
+                        <td>TESTER04</td>
+                        <td>Rifki</td>
+                        <td>08384762489742</td>
+                        <td class="exc-data">Risiko Tinggi</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>
                     <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
-                        <td>Tidak Berisiko</td>
-                        <td><a href="#">Lihat detail</a></td>
-                    </tr>
-                    <tr>
-                        <td>TESTER01</td>
-                        <td>Bambang</td>
-                        <td>081251515151</td>
+                        <td>TESTER05</td>
+                        <td>Ahmad Tauhid</td>
+                        <td>0897378819764</td>
                         <td>Tidak Berisiko</td>
                         <td><a href="#">Lihat detail</a></td>
                     </tr>

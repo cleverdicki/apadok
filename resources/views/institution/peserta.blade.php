@@ -73,33 +73,33 @@
                     <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>TESTER01</td>
-                    <td>Bambang</td>
-                    <td>088811112222</td>
+                    <td>TESTER02</td>
+                    <td>Rahayu</td>
+                    <td>081212389746</td>
                     <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>TESTER01</td>
-                    <td>Bambang</td>
-                    <td>088811112222</td>
+                    <td>TESTER03</td>
+                    <td>Sutejo</td>
+                    <td>0824869284972</td>
                     <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>TESTER01</td>
-                    <td>Bambang</td>
-                    <td>088811112222</td>
+                    <td>TESTER04</td>
+                    <td>Rifki</td>
+                    <td>0838476248974</td>
                     <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>TESTER01</td>
-                    <td>Bambang</td>
-                    <td>088811112222</td>
+                    <td>TESTER05</td>
+                    <td>Ahmad Tauhid</td>
+                    <td>0897378819764</td>
                     <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>TESTER01</td>
-                    <td>Bambang</td>
-                    <td>088811112222</td>
+                    <td>TESTER06</td>
+                    <td>Indra Surya</td>
+                    <td>0867135882790</td>
                     <td><a href="{{ route('institution.detail') }}" class="detail-link">Lihat detail </a><span>|<a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
             </tbody>

@@ -180,10 +180,6 @@
     margin: 32px 0;
 }
 
-.monitoring-btn {
-    color: #DB5620 !important;
-}
-
-.all-disease-btn {
+.monitoring-btn, .all-disease-btn, .exc-data {
     color: #DB5620 !important;
 }

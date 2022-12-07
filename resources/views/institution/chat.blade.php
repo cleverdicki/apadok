@@ -30,45 +30,45 @@
             <div class="ui grid">
                 <div class="three wide column initial-column">
                     <div class="circle-bg">
-                        <h3>B</h3>
+                        <h3>R</h3>
                     </div>
                 </div>
                 <div class="thirteen wide column detail-column">
-                    <h5>Bambang</h5>
-                    <p>081274829382</p>
+                    <h5>Rahayu</h5>
+                    <p>081277459382</p>
                 </div>
             </div>
             <div class="ui grid">
                 <div class="three wide column initial-column">
                     <div class="circle-bg">
-                        <h3>B</h3>
+                        <h3>S</h3>
                     </div>
                 </div>
                 <div class="thirteen wide column detail-column">
-                    <h5>Bambang</h5>
-                    <p>081274829382</p>
+                    <h5>Sutejo</h5>
+                    <p>087829103821</p>
                 </div>
             </div>
             <div class="ui grid">
                 <div class="three wide column initial-column">
                     <div class="circle-bg">
-                        <h3>B</h3>
+                        <h3>R</h3>
                     </div>
                 </div>
                 <div class="thirteen wide column detail-column">
-                    <h5>Bambang</h5>
-                    <p>081274829382</p>
+                    <h5>Rifki</h5>
+                    <p>087712312392</p>
                 </div>
             </div>
             <div class="ui grid">
                 <div class="three wide column initial-column">
                     <div class="circle-bg">
-                        <h3>B</h3>
+                        <h3>AT</h3>
                     </div>
                 </div>
                 <div class="thirteen wide column detail-column">
-                    <h5>Bambang</h5>
-                    <p>081274829382</p>
+                    <h5>Ahmad Tauhid</h5>
+                    <p>081295838392</p>
                 </div>
             </div>
         </div>

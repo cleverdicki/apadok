@@ -180,10 +180,6 @@
     margin: 32px 0;
 }
 
-.monitoring-btn {
-    color: #DB5620 !important;
-}
-
-.stroke-btn {
+.monitoring-btn, .stroke-btn, .exc-data {
     color: #DB5620 !important;
 }

@@ -185,10 +185,6 @@
     margin: 32px 0;
 }
 
-.monitoring-btn {
-    color: #DB5620 !important;
-}
-
-.diabetes-btn {
+.monitoring-btn, .diabetes-btn, .exc-data {
     color: #DB5620 !important;
 }
