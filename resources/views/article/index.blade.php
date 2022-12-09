@@ -46,7 +46,7 @@
                             <h2>Apakah yang Dimaksud Dengan Penyakit Diabetes?</h2>
                             <p>Diabetes adalah penyakit kronis yang ditandai dengan tingginya kadar gula darah. Glukosa merupakan sumber energi utama bagi sel tubuh manusia. Akan tetapi, pada penderita diabetes, glukosa tersebut tidak dapat digunakan oleh tubuh.
                             Kadar gula (glukosa) dalam darah dikendalikan oleh hormon insulin yang diproduksi pankreas. Namun, pada penderita diabetes, pankreas tidak mampu memproduksi insulin sesuai kebutuhan tubuh. Tanpa insulin, sel-sel tubuh tidak dapat menyerap dan mengolah glukosa menjadi energi.</p>
-                            <a href="#">Selengkapnya</a>
+                            <a href="{{ route('article-detail') }}">Selengkapnya</a>
                         </div>
                     </div>
                 </div>

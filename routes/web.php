@@ -23,6 +23,7 @@ Route::get('/login-admin', [UserController::class, 'loginAdmin'])->name('loginAd
 Route::post('/login-attempt', [UserController::class, 'loginAttempt'])->name('login-attempt');
 Route::post('/login-attempt-admin', [UserController::class, 'loginAttemptAdmin'])->name('login-attempt-admin');
 Route::get('/article', [LandingController::class, 'article'])->name('article');
+Route::get('/article-detail', [LandingController::class, 'articleDetail'])->name('article-detail');
 Route::get('/about-us', [LandingController::class, 'about'])->name('about');
 
 Route::prefix('institution')->name('institution.')->group(function () {
