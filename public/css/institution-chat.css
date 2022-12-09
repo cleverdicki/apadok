@@ -25,6 +25,20 @@
     height: 59px;
 }
 
+.institution-chat button {
+    text-align: left;
+    padding: 0;
+    border: none;
+    background-color: #FFFFFF;
+    transition: 0.25s;
+    width: 340px;
+    margin-bottom: 30px;
+}
+
+.institution-chat button:hover {
+    background: #F7F7F7;
+}
+
 .institution-chat .initial-column .circle-bg {
     display: flex !important;
     justify-content: center;
@@ -67,11 +81,23 @@
     justify-content: center;
 }
 
-.institution-chat .right-box .chat-right-box-container {
+.institution-chat .right-box .filled-chat-right-box-container {
+    display: none;
+}
+
+.institution-chat .right-box .filled-chat-right-box-container h2 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32.81px;
+    color: #3C3E41;
+    margin-bottom: 25px;
+}
+
+.institution-chat .right-box .empty-chat-right-box-container {
     text-align: center;
 }
 
-.institution-chat .right-box .chat-right-box-container p {
+.institution-chat .right-box .empty-chat-right-box-container p {
     font-weight: 400;
     font-size: 20px;
     line-height: 23.44px;
