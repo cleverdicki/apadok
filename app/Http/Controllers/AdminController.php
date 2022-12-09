@@ -31,6 +31,11 @@ class AdminController extends Controller
         return view('admin.add-article');
     }
 
+    public function editArticle()
+    {
+        return view('admin.edit-article');
+    }
+
     /**
      * Store a newly created resource in storage.
      *

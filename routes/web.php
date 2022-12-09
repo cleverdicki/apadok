@@ -42,4 +42,5 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::get('/institution-list', [AdminController::class, 'institutionList'])->name('institutionList');
     Route::get('/article', [AdminController::class, 'article'])->name('article');
     Route::get('/add-article', [AdminController::class, 'addArticle'])->name('addArticle');
+    Route::get('/edit-article', [AdminController::class, 'editArticle'])->name('editArticle');
 });

@@ -61,12 +61,12 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="group-code">7UXJS3</td>
-                    <td>Klinik Sutorejo</td>
-                    <td class="institution-type">Klinik</td>
-                    <td>klinik@gmail.com</td>
-                    <td>082222080822</td>
-                    <td>Jl. Sutorejo</td>
+                    <td class="group-code">MBDITS22</td>
+                    <td>Kelas MBD ITS</td>
+                    <td class="institution-type">Pendidikan</td>
+                    <td>dwi@if.its.ac.id</td>
+                    <td>0812748293821</td>
+                    <td>Jl. Keputih 1/13</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
@@ -79,30 +79,21 @@
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td class="group-code">7UXJS3</td>
-                    <td>Klinik Sutorejo</td>
-                    <td class="institution-type">Klinik</td>
-                    <td>klinik@gmail.com</td>
-                    <td>082222080822</td>
-                    <td>Jl. Sutorejo</td>
+                    <td class="group-code">ZDK390</td>
+                    <td>Klinik Uji Coba</td>
+                    <td class="institution-type">Pendidikan</td>
+                    <td>ujiklinik@gmail.com</td>
+                    <td>0878291038212</td>
+                    <td>Mulyosari Tengah VII 97A</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td class="group-code">7UXJS3</td>
-                    <td>Klinik Sutorejo</td>
-                    <td class="institution-type">Klinik</td>
-                    <td>klinik@gmail.com</td>
-                    <td>082222080822</td>
-                    <td>Jl. Sutorejo</td>
-                    <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
-                </tr>
-                <tr>
-                    <td class="group-code">7UXJS3</td>
-                    <td>Klinik Sutorejo</td>
-                    <td class="institution-type">Klinik</td>
-                    <td>klinik@gmail.com</td>
-                    <td>082222080822</td>
-                    <td>Jl. Sutorejo</td>
+                    <td class="group-code">NS94FKU</td>
+                    <td>Program Studi Bedah Saraf Unair</td>
+                    <td class="institution-type">Program Studi</td>
+                    <td>kps.ns.sby@gmail.com</td>
+                    <td>0877123123921</td>
+                    <td>Jl. Bendul Merisi Selatan Airdas No, 47 Surabaya</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
             </tbody>

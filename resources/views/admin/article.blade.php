@@ -58,34 +58,28 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Bagaimana Stroke Bisa Terjadi?</td>
-                    <td class="article-type">Stroke</td>
+                    <td>Apakah yang Dimaksud Dengan Diabetes?</td>
+                    <td class="article-type">Diabetes</td>
                     <td>Text</td>
-                    <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="#" class="edit-link" onclick="location.href='{{ route('admin.editArticle') }}'"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
                     <td>Bagaimana Stroke Bisa Terjadi?</td>
                     <td class="article-type">Stroke</td>
                     <td>Text</td>
-                    <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td><a href="#" class="edit-link" onclick="location.href='{{ route('admin.editArticle') }}'"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>Bagaimana Stroke Bisa Terjadi?</td>
-                    <td class="article-type">Stroke</td>
-                    <td>Text</td>
-                    <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td>Kenali 5 Manfaat Pisang Untuk Mengantisipasi Penyakit Jantung</td>
+                    <td class="article-type">Kardiovaskular</td>
+                    <td>Video</td>
+                    <td><a href="#" class="edit-link" onclick="location.href='{{ route('admin.editArticle') }}'"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>Bagaimana Stroke Bisa Terjadi?</td>
-                    <td class="article-type">Stroke</td>
-                    <td>Text</td>
-                    <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
-                </tr>
-                <tr>
-                    <td>Bagaimana Stroke Bisa Terjadi?</td>
-                    <td class="article-type">Stroke</td>
-                    <td>Text</td>
-                    <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
+                    <td>Kok Bisa Kencing Manis?</td>
+                    <td class="article-type">Diabetes</td>
+                    <td>Video</td>
+                    <td><a href="#" class="edit-link" onclick="location.href='{{ route('admin.editArticle') }}'"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
             </tbody>
         </table>

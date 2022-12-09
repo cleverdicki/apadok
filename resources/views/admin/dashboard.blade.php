@@ -56,7 +56,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>Klinik</td>
+                    <td>Perusahaan</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
@@ -64,19 +64,19 @@
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>Klinik</td>
+                    <td>Pendidikan</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>Klinik</td>
+                    <td>Program Studi</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>Klinik</td>
+                    <td>Rumah Sakit</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
                 <tr>
-                    <td>Klinik</td>
+                    <td>Puskesmas</td>
                     <td><a href="#" class="edit-link" onclick="editModal()"> Edit </a><span>|</span><a href="#" class="delete-link" onclick="deleteModal()"> Delete</a></td>
                 </tr>
             </tbody>
