@@ -92,7 +92,8 @@
                 <img src="{{ asset('images/institution/filledChat.png') }}" alt="filledChat">
                 <div class="ui form">
                     <div class="field">
-                        <input type="text" placeholder="Tulis pesan Anda">
+                        <input type="text" class="icon-inp" placeholder="Tulis pesan Anda">
+                        <button class="send-btn"><img src="{{ asset('images/institution/send-chat.png') }}" alt=""></button>
                     </div>
                 </div>
             </div>

@@ -93,6 +93,20 @@
     margin-bottom: 25px;
 }
 
+.institution-chat .right-box .filled-chat-right-box-container .field {
+    position: relative;
+}
+
+.institution-chat .right-box .filled-chat-right-box-container .send-btn {
+    position: absolute;
+    width: 25px;
+    right: 3px;
+    top: 10px;
+}
+
+.institution-chat .right-box .filled-chat-right-box-container .send-btn:hover {
+    background-color: #FFFFFF;
+}
 .institution-chat .right-box .empty-chat-right-box-container {
     text-align: center;
 }
