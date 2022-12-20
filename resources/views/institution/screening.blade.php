@@ -40,42 +40,42 @@
                     <td>Bambang</td>
                     <td>081251351361</td>
                     <td>Sudah Skrining</td>
-                    <td><a href="#">Lihat detail</a></td>
+                    <td><a href="{{ route('institution.detail') }}">Lihat detail</a></td>
                 </tr>
                 <tr>
                     <td>TESTER02</td>
                     <td>Rahayu</td>
                     <td>0854268781761</td>
                     <td class="exc-data">Belum Skrining</td>
-                    <td><a href="#">Lihat detail</a></td>
+                    <td><a href="{{ route('institution.detail') }}">Lihat detail</a></td>
                 </tr>
                 <tr>
                     <td>TESTER03</td>
                     <td>Sutejo</td>
                     <td>0824869284972</td>
                     <td>Sudah Skrining</td>
-                    <td><a href="#">Lihat detail</a></td>
+                    <td><a href="{{ route('institution.detail') }}">Lihat detail</a></td>
                 </tr>
                 <tr>
                     <td>TESTER04</td>
                     <td>Rifki</td>
                     <td>08384762489742</td>
                     <td>Sudah Skrining</td>
-                    <td><a href="#">Lihat detail</a></td>
+                    <td><a href="{{ route('institution.detail') }}">Lihat detail</a></td>
                 </tr>
                 <tr>
                     <td>TESTER05</td>
                     <td>Ahmad Tauhid</td>
                     <td>0897378819764</td>
                     <td>Sudah Skrining</td>
-                    <td><a href="#">Lihat detail</a></td>
+                    <td><a href="{{ route('institution.detail') }}">Lihat detail</a></td>
                 </tr>
                 <tr>
                     <td>TESTER06</td>
                     <td>Indra Surya</td>
                     <td>08671358827908</td>
                     <td>Sudah Skrining</td>
-                    <td><a href="#">Lihat detail</a></td>
+                    <td><a href="{{ route('institution.detail') }}">Lihat detail</a></td>
                 </tr>
             </tbody>
         </table>
