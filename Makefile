@@ -7,10 +7,8 @@ down:
 init:
 	docker compose up -d --build
 	docker compose exec app composer install
-	@make npm
 	docker compose exec app cp .env.dev .env
 	docker compose exec app php artisan key:generate
-	docker compose exec app php artisan migrate:fresh --seed
 	docker compose exec app php artisan route:clear
 	docker compose exec app php artisan config:clear
 	docker compose exec app php artisan cache:clear
